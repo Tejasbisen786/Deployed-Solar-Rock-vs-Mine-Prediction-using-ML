@@ -99,7 +99,7 @@ st.markdown(
 
 # * Center Container
         
-with st.container(border=True):
+with st.container():
  # Create Streamlit App:
 # Text input for user to enter data
  input_data = st.text_input('Enter Comma-Separated Values Here ( NOTE: Expecting 60 features as input.)')
