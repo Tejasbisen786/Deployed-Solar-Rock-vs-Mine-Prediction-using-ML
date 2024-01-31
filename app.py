@@ -111,9 +111,9 @@ with st.container():
     # Predict and show result
     prediction = model.predict(reshaped_input)
     if prediction[0] == 'R':
-        st.subheader('This Object is Rock' ,divider='rainbow')
+        st.subheader('This Object is Rock' )
     else:
-        st.subheader('The Object is Mine' , divider='rainbow')
+        st.subheader('The Object is Mine')
  
 
 
