@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # Get data
-solar_data = pd.read_csv('../sonar_data.csv',header=None)
+solar_data = pd.read_csv('./sonar_data.csv',header=None)
 solar_data.head()
 
 #prepare data
