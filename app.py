@@ -45,7 +45,7 @@ import streamlit as st
 #icon 
 from PIL import Image
 # Loading Image using PIL
-im = Image.open('../assets/predictive.png')
+im = Image.open('./assets/predictive.png')
 
 #title of application 
 st.set_page_config(
